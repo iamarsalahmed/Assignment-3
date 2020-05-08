@@ -1,0 +1,545 @@
+@font-face{
+    font-family: 'Merri' ;
+    src: url(Merriweather-Regular.ttf);
+}
+@font-face{
+    font-family: 'Open Sans';
+    src: url(OpenSans-Regular.ttf);
+}
+@media screen and (max-width: 580px) {
+    body{
+
+    }
+}
+/* .dev{
+
+} */
+nav{
+    z-index: 2;
+}
+img{
+    z-index: 1;
+}
+.first {
+    background-color: #316DC3;
+    height: 50px;
+    background-image: url();
+    vertical-align: top;
+    
+}
+.blue{
+    color: #316dc3;
+   font-size: 15px;
+   font-weight: 600;
+    font-family: 'Merri';
+}
+
+.daily { 
+    font-size: 14px;
+}
+.month { 
+    font-size: 18px;
+    color: #26e305;
+
+}
+.nav-item{
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.nav-item:hover{
+    background-color: #316DC3;
+    border-radius: 25px;
+    
+     
+}
+
+.dropdown:hover>.dropdown-menu{
+    display: block;
+    
+}
+
+
+.fb {
+    position: absolute; 
+    left: 400 px;
+    top : 10 px
+}
+
+.intro {
+    font-family: 'Merri' ;
+    font-size: 32px;
+    text-align: center;
+
+    
+}
+.blue1{
+
+
+}
+.blw { 
+    font-size: 48px;
+    font-family: "Merri";
+    
+}
+
+.navbar navbar-expand-lg navbar-light nav{
+
+}
+#st{
+    margin-left: 50px;
+}
+.sites{
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    
+}
+.social_sites{
+    display: inline-block;
+    float: right;
+
+}
+i{
+    color: white;
+    display: inline-block;
+}
+.c1 { 
+    padding-left: 50px;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    line-height: 1em;
+}
+.what {
+    font-size: 32px;
+    font-family: 'Merri';
+    text-align: center;
+
+}
+.img {
+    position: absolute;
+    top: 1380px;
+    left: 175px;
+}
+.img1{
+    position: absolute;
+    top: 1383px ;
+    left: 523px
+}
+.img2 {
+    position: absolute;
+    top: 1376px;
+    left: 810px;
+
+}.img3 {
+    position: absolute;
+    top: 1380px;
+    left: 1100px;
+
+}
+.hp{
+    position: absolute;
+    left: 120px;
+
+}
+.quick{
+    padding-bottom: 80px;
+    height: 400px;
+    font-size: 14px;
+    color: #bbbbbb ;
+    font-family: 'Open Sans';
+    text-align: left;
+    padding-left: 120px;
+    padding-top: 100px;
+    background-color: #25272E;
+    
+}
+.em{
+    line-height: 2em;
+}
+
+.up1 {
+    text-align: center;
+    height: 50px;
+    width: 350px;
+    font-size: 15px;
+    font-family: "Merri";
+    font-weight: 600;
+    display: inline-block;
+    color:#316dc3 ;
+    margin-top: 50px;
+    margin-left: 70px;
+    background-color:#F4FAFA;
+    padding-top: 13px;
+}
+
+.up2{
+    text-align: center;
+    display: inline-block;
+    height: 50px;
+    width: 350px;
+    font-size: 15px;
+    font-family: "Merri";
+    font-weight: 600;
+    padding-top: 10px;
+    color:#316dc3 ;
+    margin-top: 50px;
+    margin-left: 70px;
+    background-color: #F4FAFA;
+    
+    
+}
+.up3{
+    text-align: center;
+    height: 50px;
+    width: 350px;
+    font-size: 15px;
+    font-family: "Merri";
+    font-weight: 600;
+    display: inline-block;
+    color:#316dc3 ;
+    margin-top: 50px;
+    margin-left: 70px;
+    background-color: #F4FAFA;
+    padding-top: 25px;
+
+
+}
+
+}
+.up4{
+    
+    text-align: center;
+    display: inline-block;
+    height: 50px;
+    width: 350px;
+    font-size: 15px;
+    font-family: "Merri";
+    font-weight: 600;
+    padding-top: 10px;
+    color:#316dc3 ;
+    margin-top: 50px;
+    margin-left: 70px;
+    
+    background-color: #F4FAFA;
+    
+}
+.d-block w-100{
+    width:  !important;
+}
+
+
+
+
+.box{
+    font-family: 'Merri';
+    font-size: 14px;
+    padding: 40px;
+    display: block;
+    float: left;
+    width: 25%;
+    background: #2755E9;
+    color: #efefef;
+    text-align: center;
+}
+}
+
+.upe{
+    display: inline-block;
+    position: absolute;
+    right: 310px;
+}
+.gallery{
+    font-family: "Merri";
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center
+}
+
+/* 
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em; */
+  
+ 
+.last{
+    background-color: #316DD9;
+    height: 40px;
+    font-size: 11px;
+    text-align: left;
+    padding-left: 120px;
+    padding-top: 9px;
+    color: white;
+    font-family: 'Open Sans';
+}
+
+
+.g1{
+    
+    float: left;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+
+}
+.button{
+    margin: 0px 10px 0px 10px;
+    border: 1px solid green;
+}
+
+
+.div4{
+    border: none;
+    background-color:white;
+    color: blue;
+    width: 330px;
+    height: 180px;
+    text-align: center;
+    box-shadow: 1px 1px 11px  black;
+    font-family: "Merri";
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    padding-top: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+.end{
+    height: 20px;
+    background-color: #316DD9;
+}
+.footer{
+    background-color: rgb(30, 33, 43);
+    height: 300px;
+    line-height: 0em;
+}
+
+.div5{
+    border: none;
+    background-color:white;
+    color: blue;
+    width: 330px;
+    height: 180px;
+    text-align: center;
+    box-shadow: 1px 1px 11px  black;
+    font-family: "Merri";
+    margin-left: 60px;
+    margin-right: 50px;
+    padding-top: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 50px;
+    text-decoration: none;
+    padding-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+.nav{
+    background-color: #316dc3;
+}
+.menu-bar{
+    background-color: #efefef;
+    display: inline-flex;
+
+    
+ }
+/* .menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+ }
+.menu-bar ul li{
+    width: 120px;
+    margin: 16px;
+    padding: 10;
+ }
+.menu-bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.active, .menu-bar ul li:hover{
+    background: #316dc3;
+    border-radius: 20px;
+}
+.menu-bar .fa{
+     margin-right: 8px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div6{
+    border: none;
+    background-color:white;
+    color: blue;
+    width: 330px;
+    height: 180px;
+    text-align: center;
+    box-shadow: 1px 1px 11px  black;
+    font-family: "Merri";
+    margin-left: 50px;
+    margin-right: 10px;
+    padding-top: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 50px;
+    padding-bottom: 50px;
+
+
+
+
+}
+.mission{
+    font-family: "Merri";
+    font-weight: 600;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 50px;
+    color: #316dc3;
+    
+
+
+
+
+}
+.div7{
+    border: none;
+    background-color:white;
+    color: blue;
+    width: 330px;
+    height: 180px;
+    text-align: center;
+    box-shadow: 1px 1px 11px  black;
+    font-family: "Merri";
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 50px;
+    padding-bottom: 50px;
+
+
+
+
+}
+.div8{
+    border: none;
+    background-color:white;
+    color: blue;
+    width: 330px;
+    height: 180px;
+    text-align: center;
+    box-shadow: 1px 1px 11px  black;
+    font-family: "Merri";
+    margin-left: 60px;
+    margin-right: 50px;
+    padding-top: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+
+
+}
+.div9{
+    border: none;
+    background-color:white;
+    color: blue;
+    width: 330px;
+    height: 180px;
+    text-align: center;
+    box-shadow: 1px 1px 11px  black;
+    font-family: "Merri";
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 50px;
+    padding-top: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 50px;
+    padding-bottom: 50px;
+
+
+}
+.div1{
+    background-color: #F7F8FA;
+}
+.image1{
+ text-align: center; 
+}
+.p {
+    background-color: #2755E9;
+    
+}
+.div2{
+    height: 250px ;
+    background-color:#2755E9 ;
+
+
+
+
+}
+.div3{
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    vertical-align: 100%;
+    background-color: #316DC3;
+    margin: 10px 50px 10px 50px;
+    
+    height: 40px;
+}
+
+
+.div3:link {
+    text-decoration: none;
+}
+
+.div3:visited{
+    text-decoration: none;
+}
+
+.pad{ padding-top: 8px;
+    
+
+
+}
+.para {
+    text-align: center;
+    font-size: 14px ;
+    line-height: 26.6px;
+    font-family: 'Open Sans';
+    margin: 50px 200px 50px 200px;
+    text-align: justify;
+    text-decoration: none solid rgb(102, 102, 102;
+    color: #A0A0A1;
+}
+
